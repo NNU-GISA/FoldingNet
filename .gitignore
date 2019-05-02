@@ -1,4 +1,5 @@
 data/
 log/
 model/
-res/
+val/
+s2g.sh

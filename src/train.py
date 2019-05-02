@@ -54,8 +54,10 @@ def train(dataset, model, batch_size, lr, epoches, log_interval, save_along_trai
 
 
 if __name__ == '__main__':
-    ROOT = "../data/nyc/"    # root path
-    TRIAN_PATH = "../data/catelog/train.txt"
+    # ROOT = "../data/nyc/"    # root path
+    #TRIAN_PATH = "../data/catelog/train.txt"
+    ROOT = "/data/city/nyc/pcd"    # root path
+    TRIAN_PATH = "/data/city/nyc/pcd_splits/train.txt"
     MLP_DIMS = (3,64,64,64,128,1024)
     FC_DIMS = (1024, 512, 512)
     FOLDING1_DIMS = (521, 512, 512, 3)   # change the input feature of the first fc because now has 9 dims instead of 2

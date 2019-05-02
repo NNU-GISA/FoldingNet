@@ -29,8 +29,8 @@ def eval(dataset, model, batch_size, log_interval):
     for batch_idx, batch in enumerate(dataloader):
         data = batch.cuda()
         points_pred = model(data)
-        np.save("../res/o{}.npy".format(batch_idx), data.cpu().detach().numpy())   # original
-        np.save("../res/p{}.npy".format(batch_idx), points_pred.cpu().detach().numpy())    # predicted
+        np.save("../val/o{}.npy".format(batch_idx), data.cpu().detach().numpy())   # original
+        np.save("../val/p{}.npy".format(batch_idx), points_pred.cpu().detach().numpy())    # predicted
         loss = chamfer_distance_loss(data, points_pred)
         running_loss += loss.item()
         if batch_idx % log_interval == log_interval - 1:
@@ -41,21 +41,6 @@ def eval(dataset, model, batch_size, log_interval):
             running_loss = 0.0
     loss_log.close()
     return
-
-
-def jsd(o, p, base=np.e):
-    """
-    compute Jensen-Shannon Divergence between original and predicted point clouds
-    https://gist.github.com/zhiyzuo/f80e2b1cfb493a5711330d271a228a3d
-    :param o: original pcd, a 3D numpy array of N x 4096 x 3
-    :param p: predicted pcd, same size as o
-    :return:
-    """
-    ## normalize p, q to probabilities
-    o, p = o / o.sum(), p / p.sum()
-    m = 1. / 2 * (o + p)
-    return scipy.stats.entropy(p, m, base=base) / 2. + scipy.stats.entropy(o, m, base=base) / 2.
-
 
 
 
@@ -70,6 +55,7 @@ def main(modelpath):
     with open(TEST_PATH) as fp:
         catelog = fp.readlines()
     catelog = [x.strip() for x in catelog]
+    print("catelog done !")
 
     testset = pcdDataset(ROOT, catelog)
     model = FoldingNetShapes(MLP_DIMS, FC_DIMS, FOLDING1_DIMS, FOLDING2_DIMS)

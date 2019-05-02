@@ -33,7 +33,7 @@ def train(dataset, model, batch_size, lr, epoches, log_interval, save_along_trai
         for batch_idx, batch in enumerate(dataloader):
             opt.zero_grad()
             data = batch.cuda()
-            # print(data.shape)
+            print(data.shape)
             points_pred = model(data)
             loss = chamfer_distance_loss(data, points_pred)
             loss.backward()
@@ -76,6 +76,7 @@ if __name__ == '__main__':
     with open(TRIAN_PATH) as fp:
         catelog = fp.readlines()
     catelog = [x.strip() for x in catelog]
+    print("catelog done !")
 
     dataset = pcdDataset(ROOT, catelog)
     model = FoldingNetShapes(MLP_DIMS, FC_DIMS, FOLDING1_DIMS, FOLDING2_DIMS)

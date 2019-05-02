@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eda3bd8-a6ef-41f5-b31e-0f90f4576416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/functions/nnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/functions/nnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/modules/nnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/modules/nnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/my_lib.c" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/my_lib.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/my_lib.h" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/my_lib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/my_lib_cuda.c" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/my_lib_cuda.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/my_lib_cuda.h" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/my_lib_cuda.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/nnd_cuda.cu" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/nnd_cuda.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/nnd_cuda.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/nnd_cuda.cu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/src/nnd_cuda.h" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/src/nnd_cuda.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nndistance/testit.py" beforeDir="false" afterPath="$PROJECT_DIR$/nndistance/testit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/datasets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/foldingnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/pointnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/traintester.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/deepgeom/visualize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/plot_log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/traintest_foldingnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/traintest_pointnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/srun_modelnet_testtest.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/srun_modelnet_traintest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/viz.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +27,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datasets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+              <folding>
+                <element signature="e#162#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/viz.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-              <folding>
-                <element signature="e#132#150#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -64,10 +50,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="355">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#96#105#0" expanded="true" />
+                <element signature="e#108#117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="569">
+              <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
               <folding>
                 <element signature="e#132#142#0" expanded="true" />
               </folding>
@@ -142,7 +128,7 @@
             <path>
               <item name="FoldingNet" type="b2602c69:ProjectViewProjectNode" />
               <item name="FoldingNet" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="nndistance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FoldingNet" type="b2602c69:ProjectViewProjectNode" />
@@ -157,6 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../latent_3d_points" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -223,20 +210,21 @@
       <workItem from="1548552452536" duration="2155000" />
       <workItem from="1548640301543" duration="1106000" />
       <workItem from="1549339717219" duration="432000" />
-      <workItem from="1556763570508" duration="15047000" />
+      <workItem from="1556763570508" duration="15757000" />
+      <workItem from="1556839259848" duration="567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37838000" />
+    <option name="totallyTimeSpent" value="39115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50766087" side_tool="true" weight="0.16546762" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49233913" visible="true" weight="0.16546762" />
-      <window_info active="true" id="Structure" order="2" sideWeight="0.50766087" side_tool="true" visible="true" weight="0.16546762" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49131766" visible="true" weight="0.16712783" />
+      <window_info id="Structure" order="2" sideWeight="0.5086823" side_tool="true" visible="true" weight="0.16712783" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3299285" />
@@ -244,7 +232,7 @@
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.22594142" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.09397344" />
+      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.09397344" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -337,26 +325,8 @@
     <entry file="file://$PROJECT_DIR$/python/deepgeom/shapenetdata.py" />
     <entry file="file://$PROJECT_DIR$/python/deepgeom/show_results.py" />
     <entry file="file://$PROJECT_DIR$/src/traintester.py" />
-    <entry file="file://$PROJECT_DIR$/src/shapenetdata.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#116#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shapenetdata.py" />
+    <entry file="file://$PROJECT_DIR$/src/snippets.py" />
     <entry file="file://$PROJECT_DIR$/src/pointnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -376,30 +346,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets.py">
+    <entry file="file://$PROJECT_DIR$/src/visualize.py" />
+    <entry file="file://$PROJECT_DIR$/src/viz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="e#162#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#96#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="57">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
           <folding>
             <element signature="e#132#150#0" expanded="true" />
           </folding>
@@ -413,20 +364,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/viz.py">
+    <entry file="file://$PROJECT_DIR$/src/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        <state relative-caret-position="355">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#132#150#0" expanded="true" />
+            <element signature="e#108#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="e#162#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="569">
+          <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
             <element signature="e#132#142#0" expanded="true" />
           </folding>

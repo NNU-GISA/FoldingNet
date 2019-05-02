@@ -11,8 +11,8 @@ import utils
 import pptk
 
 def main():
-    o = np.load("../res/o0.npy")   # original data
-    p = np.load("../res/p0.npy")   # predicted data
+    o = np.load("../val/o0.npy")   # original data
+    p = np.load("../val/p0.npy")   # predicted data
     # print(o[0].shape)
     # print(o[0])
     pptk.viewer(o[0])
